@@ -8,6 +8,7 @@ var uglify = false;
 var outputFile = "combined.js";
 
 
+
 var compile = function(){
 
 	var catString = 'cat ' + filesToWatch.join(' ') + ' > ' + outputFile;
@@ -25,6 +26,7 @@ var compile = function(){
 	} );	
 
 };
+
 
 if ( process.argv.length > 2 ){
 
