@@ -6,10 +6,11 @@ This is a simple nodejs tool that can concatenate, uglify and watch files.
 ## Usage
 ```./conWatch fileOne.js fileTwo.js fileThree.js -u -o combined.js```
 
-./conWatch [ files ] -u -o outputfile
-	[files] - which files to watch
-	-u - uglify (compression) flag
-	-o outputfile - which file to output to
+[files] - which files to watch
+
+-u - uglify (compression) flag
+
+-o outputfile - which file to output to
 
 
 
